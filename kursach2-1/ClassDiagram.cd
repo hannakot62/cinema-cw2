@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Cinema">
+    <Position X="3.5" Y="1" Width="2" />
+    <TypeIdentifier>
+      <HashCode>CACAAACgANGAIAEAABAgQQQIAIqMgQAAAAC4AAAAAAA=</HashCode>
+      <FileName>Cinema.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="sessions" />
+      <Field Name="movies" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Movie">
+    <Position X="0.5" Y="1" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAQEAEIAAAAAAAgAAAEAEACEQAgQAAABAA=</HashCode>
+      <FileName>Movie.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Date">
+    <Position X="9" Y="5.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AIAkAAAAAAAAAARAAAAAAAACAAQAAAABBABgAAAAAAA=</HashCode>
+      <FileName>MyTime.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Time">
+    <Position X="6.5" Y="5.25" Width="2" />
+    <InheritanceLine Type="Date" FixedToPoint="true">
+      <Path>
+        <Point X="10" Y="5.25" />
+        <Point X="10" Y="4.95" />
+        <Point X="8.5" Y="4.95" />
+        <Point X="8.5" Y="5.25" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAABBAAABAAAAAAAAAAAAgAAQAAAAQAAEgAAEAAQA=</HashCode>
+      <FileName>MyTime.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Seat">
+    <Position X="9.25" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAQAAAAEBAQCQiAAAAAEAAgAAiAAEEAAA=</HashCode>
+      <FileName>Seat.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Session">
+    <Position X="6.5" Y="0.5" Width="2" />
+    <AssociationLine Name="movie" Type="Movie" FixedToPoint="true">
+      <Path>
+        <Point X="6.5" Y="0.75" />
+        <Point X="1.375" Y="0.75" />
+        <Point X="1.375" Y="1" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AVABAAAAABAAAQABEBAAARIggAAAAEAAAAAgAAEAAEA=</HashCode>
+      <FileName>Session.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="movie" />
+      <Field Name="time" />
+      <Field Name="seats" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="User">
+    <Position X="11.5" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>ABABAQAAAAAAAAgAAAAAACAgAAAAAAAAAAAAggEAEAA=</HashCode>
+      <FileName>User.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Menu&lt;T&gt;">
+    <Position X="11.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAIAJAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>kursach2-1.cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AdminMenu&lt;T&gt;">
+    <Position X="13.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAIAAAAAAA=</HashCode>
+      <FileName>kursach2-1.cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UserMenu&lt;T&gt;">
+    <Position X="11.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAABAAIAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>kursach2-1.cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
